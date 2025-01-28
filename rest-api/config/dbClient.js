@@ -14,7 +14,7 @@ class dbClient {
             this.db = this.client.db('adopcion'); // adopcion es la coleccion de la base de datos.
             console.log("Se conectó al servidor de la BD...");
         } catch (e) {
-            console.log(e);
+            console.error("Error al conectar con la base de datos:", e);
         }
     }
 }
