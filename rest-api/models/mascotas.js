@@ -11,6 +11,11 @@ class mascotasModel {
             throw error;
         }
     }
+
+    async getAll() {
+        const colMascotas = dbClient.db.collection('mascotas');
+        return await colMascotas.find({}).toArray();
+    }
 }
 
 export default new mascotasModel;
