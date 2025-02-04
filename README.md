@@ -1,7 +1,7 @@
 <div align="center">
   <h1 style="color: #3498db; font-size: 2.5em;">📘 ISW-711: Programación Web II</h1>
   <p style="font-size: 1.2em; color: #555;">Repositorio de ejercicios del curso de Programación Web II</p>
-  <img src="https://img.shields.io/badge/Universidad-XYZ-blue" alt="Universidad XYZ">
+  <img src="https://img.shields.io/badge/Universidad-UTN-blue" alt="Universidad Tecnológica Nacional">
   <img src="https://img.shields.io/badge/Lenguaje-JavaScript-yellow" alt="JavaScript">
 </div>
 
