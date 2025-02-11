@@ -18,18 +18,21 @@ async function getTeachers() {
     container.innerHTML = '';
 
     teachers.forEach(element => {
-      const item = document.createElement('li');
-      item.innerHTML = `
-        ${element.first_name} ${element.last_name} 
-        <button onclick="updateTeacher('${element._id}')">Edit</button>
-        <button onclick="deleteTeacher('${element._id}')">Delete</button>
+      const row = document.createElement('tr');
+      row.innerHTML = `
+        <td>${element.first_name}</td>
+        <td>${element.last_name}</td>
+        <td>${element.cedula}</td>
+        <td>${element.age}</td>
+        <td>
+          <button class="btn btn-warning btn-sm me-2" onclick="updateTeacher('${element._id}')">Editar</button>
+          <button class="btn btn-danger btn-sm" onclick="deleteTeacher('${element._id}')">Borrar</button>
+        </td>
       `;
-      item.setAttribute('data-id', element._id);
-      container.appendChild(item);
+      container.appendChild(row);
     });
   }
 }
-
 
 async function createTeacher() {
   let teacher = {
