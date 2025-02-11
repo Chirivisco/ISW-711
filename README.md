@@ -15,7 +15,7 @@ Este repositorio contiene los ejercicios desarrollados en el curso **ISW-711 (Pr
 
 ```
 📦 ISW-711
- ┣ 📂 Workshop-1
+ ┣ 📂 rest-api
  ┣ 📂 Workshop-2
  ┣ 📂 Workshop-3
  ┣ 📂 Workshop-4
