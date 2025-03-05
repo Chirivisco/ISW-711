@@ -1,0 +1,32 @@
+/* Estilos para el navbar */
+nav div.container {
+    background-color: rgba(33, 37, 41, 1) !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    max-width: 1320px !important;
+}
+
+.navbar {
+    background-color: #343a40;
+    padding: 15px;
+}
+
+.navbar .navbar-brand {
+    color: #4f85be;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar .nav-link {
+    color: #4f85be;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar .nav-link:hover {
+    color: #1131b2;
+}
+
+.navbar .nav-item.active .nav-link {
+    color: #1131b2;
+    font-weight: bold;
+}
